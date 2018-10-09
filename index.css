@@ -10,18 +10,21 @@ main {
     grid-gap: 10px;
 }
 .butt {
-    width: 20vw;
-    height: 20vh;
+    padding: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
     outline: none;
-    border-radius: 5px;
+    border-radius: 40px;
     border: none;
     cursor: pointer;
 }
 .butt:hover {
-    box-shadow: 3px 4px 1px 0.5px rgb(146, 143, 143);
-    transition: 2s;
+    filter: opacity(70%);
+    border:0.16em solid white;
+    box-shadow: 0px 10px 14px -7px #276873;
+}
+.butt:active {
+    box-shadow: 0px 10px 14px -7px #276873;
 }
 .green {
     background-color: green;
@@ -62,17 +65,17 @@ main {
         grid-template-columns: repeat(2, 1fr);
     }
     .butt {
-        width: 30vw;
-        height: 20vh;
+        padding: 20px;
         margin-bottom: 10px;
         outline: none;
-        border-radius: 5px;
+        border-radius: 40px;
         border: none;
         cursor: pointer;
     }
     .butt:hover {
-        box-shadow: 3px 4px 1px 0.5px rgb(146, 143, 143);
-        transition: 5s;
+        filter: opacity(70%);
+        border:0.16em solid white;
+        box-shadow: 0px 10px 14px -7px #276873;
     }
 }
 

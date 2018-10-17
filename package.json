@@ -1,0 +1,16 @@
+{
+  "name": "browser-sync",
+  "version": "1.0.0",
+  "description": "Live reload",
+  "main": "app.js",
+  "scripts": {
+    "start": "browser-sync start --server --files \" *.html, *.css, *.js\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auto",
+    "reload"
+  ],
+  "author": "Abidemi",
+  "license": "ISC"
+}
